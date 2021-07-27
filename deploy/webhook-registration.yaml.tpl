@@ -22,3 +22,5 @@ webhooks:
         apiGroups: [""]
         apiVersions: ["v1"]
         resources: ["pods"]
+    admissionReviewVersions: "v1"
+    sideEffects: None
